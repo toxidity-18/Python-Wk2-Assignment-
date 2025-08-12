@@ -14,8 +14,9 @@ another_list=[50,60,70]
 my_list.extend(another_list)
 print(my_list)
 # Remove the last element inside my list 
-del my_list[-1]
-print(my_list)
+# del my_list[-1]: deleting an element 
+my_list.remove(70)
+print(my_list)  
 # sort my_list in ascending order .
 my_list.sort()
 print(my_list)
